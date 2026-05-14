@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/fondo.png");
+    font-family: Arial, sans-serif;
+    color: #222;
+    padding: 2rem;
+}
+
+#contenedor {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+* HEADER */
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    border-bottom: 0.2rem solid #256D85;
+}
+
+header h1 {
+    font-family: 'Abel', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #111;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* NAV */
+
+nav {
+    margin: 2rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #06283D;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #256D85;
+}
+
+nav ul li a:active {
+    background-color: #59DFFF;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #111;
+    color: #f5f5f5;
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-bottom: -2rem;
+}
+footer address a {
+    color: #59DFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer address a:hover {
+    color: white;
+    text-decoration: underline;
+}
