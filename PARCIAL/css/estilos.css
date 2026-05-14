@@ -1,0 +1,48 @@
+body {
+    background-image: url("../img/fondo.png");
+    font-family: Arial, sans-serif;
+    color: #222;
+    padding: 2rem;
+}
+
+#contenedor {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.92);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+/* NAV */
+
+nav {
+    margin: 2rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #06283D;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+footer address a {
+    color: #59DFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer address a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
